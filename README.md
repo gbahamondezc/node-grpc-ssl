@@ -1,4 +1,4 @@
-### GRPC [GRPC](https://grpc.io/) -  NodeJS + Docker Sample, SSL Certs
+### [GRPC](https://grpc.io/) -  NodeJS + Docker Sample, SSL Certs
 This is a basic  sample  of **client -> server**  communication   using GRPC protocol with NodeJS.
 
 - Certificates generation 
