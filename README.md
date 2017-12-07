@@ -9,6 +9,10 @@ This is a basic  sample  of **client -> server**  communication   using GRPC pro
 ##### Instructions
 As very first step  you must clone this repo and cd into the root project folder
 
+#### Install dependencies
+```
+$ npm install
+```
 
 ##### Generate SSL Certificates (certificates will be generated at ./certs)
 ```
