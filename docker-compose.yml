@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  # Server
+  grpcserver:
+    container_name: grpc_sample_server
+    tty: true
+    env_file:      
+      - environments/vars.env
+    build:
+      context: .
+      dockerfile: environments/Dockerfile
+    ports:
+      - "50051:50051"

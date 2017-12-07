@@ -1,0 +1,17 @@
+{
+  "name": "node-grpc-sample",
+  "version": "1.0.0",
+  "description": "Sample of grpc server",
+  "main": "server.js",
+  "dependencies": {
+    "grpc": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {    
+    "start": "node server.js",
+    "gen:certs": "./scripts/gen_certs.sh",
+    "develop": "SERVER_PORT=50051 node server"
+  },
+  "author": "Gonzalo Bahamondez <gonzalo.bahamondez.c@gmail.com>",
+  "license": "MIT"
+}
